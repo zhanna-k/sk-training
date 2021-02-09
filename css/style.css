@@ -1,0 +1,28 @@
+div{
+    background-color:aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+div:hover{
+    background-color: red;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+#item, p{
+    color:brown;
+}
+
+div p{
+    background-color: yellow;
+    color: blue;
+}
+
+span{
+    background-color: red;
+}
