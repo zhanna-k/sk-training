@@ -1,0 +1,63 @@
+#box {
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+#first, #second, #third {
+    border-width: 20px;
+    border-style: solid;
+    border-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+#second {
+    border-color: red orange green grey;
+    border-radius: 50%;
+}
+
+#third {
+    width: 1px;
+    height: 1px;
+    border-color: red transparent green grey;
+}
+
+a[href] {
+    background-color: aquamarine;
+}
+
+a[target=_blank] {
+    background-color: greenyellow;
+}
+
+a:hover {
+    background-color: red;
+}
+
+h1::after {
+    content: " - Hello World!";
+}
+
+h1::first-letter {
+    color: blueviolet;
+}
+
+nav ul {
+    list-style: none;
+    background-color: khaki;
+}
+
+ul li {
+    display: inline-block;
+    border: 1px dotted grey;
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+}
