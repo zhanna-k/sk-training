@@ -1,0 +1,76 @@
+div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 5px solid grey;
+}
+
+.text {
+    font-size: 48px;
+    text-shadow: 5px 5px 5px grey;
+}
+
+.gradient {
+    background-image: linear-gradient(to top right, red, yellow, grey);
+    transform-origin: top center;
+    transform: rotate(45deg);
+}
+
+.box {
+    transform: translate(100px, 100px) rotate(90deg) scale(1, 1) skew(30deg);
+}
+
+.practice {
+    transform-origin: top center;
+    background-image: linear-gradient(to top right, blue, yellow);
+    transform: rotate(-45deg);
+    margin: 200px;
+}
+
+.shadow {
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px red, 0 0 0 10px yellow;
+}
+
+.anime {
+    transition: width 3s;
+}
+
+.anime:hover {
+    width: 400px;
+}
+
+@keyframes clr {
+    from {
+        background: red;
+    }
+    to {
+        background: greenyellow;
+    }
+}
+
+@keyframes clr2 {
+0%{
+    background: red;
+}
+25%{
+    background: rgb(230, 47, 47);
+}
+50%{
+    background: rgb(228, 83, 83);
+}
+100%{
+    background: rgb(194, 28, 28);
+}
+}
+
+.animation {
+    animation-name: clr2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    filter: grayscale(100%);
+}
