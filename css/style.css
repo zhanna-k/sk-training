@@ -22,10 +22,13 @@ div {
 }
 
 .practice {
+    width: 300px;
+    height: 200px;
     transform-origin: top center;
-    background-image: linear-gradient(to top right, blue, yellow);
-    transform: rotate(-45deg);
-    margin: 200px;
+    background-image: linear-gradient(to top right, yellow, blue);
+    transform: rotate(-25deg);
+    box-shadow: -5px 5px 5px gray;
+    margin: 300px;
 }
 
 .shadow {
