@@ -1,9 +1,24 @@
 div {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-align: justify;
-    color: green;
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: grey;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.youtube:hover {
+    color: #c4302b;
+}
+
+.instagram:hover {
+    color: #d6249f;
+}
+
+.pinterest:hover {
+    color: #c8232c;
 }
