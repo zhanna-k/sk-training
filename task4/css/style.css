@@ -1,0 +1,42 @@
+body {
+    width: 800px;
+    color: white;
+}
+
+header {
+    background-color: #7ceb94;
+    height: 50px;
+}
+
+nav {
+    background-color: #27cc4b;
+    height: 30px;
+}
+
+#sidebar {
+    background-color: #435ebf;
+    float: left;
+    width: 25%;
+}
+
+#content {
+    background-color: #8ea3ed;
+    float: unset;
+    width: 50%;
+}
+
+aside {
+    background-color: #435ebf;
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: #7ceb94;
+    height: 40px;
+}
+
+#sidebar, #content, aside {
+    height: 400px;
+    display: inline-block;
+}
