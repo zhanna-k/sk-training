@@ -1,0 +1,9 @@
+li {
+    list-style: none;
+}
+
+li::before {
+    content: '\25B2';
+    padding-right: 5px;
+    color: purple;
+}
